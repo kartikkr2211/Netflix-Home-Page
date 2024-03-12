@@ -1,0 +1,90 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #141414;
+ }
+ body {
+    font-family: Arial, sans-serif;
+}
+
+ .navbar {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+        background-color: #0f0f0f;
+    }
+
+    .navbar img {
+        height: 40px;
+    }
+
+    .navbar a {
+        color: #ffffff;
+        text-decoration: none;
+        margin-left: 2px;
+    }
+
+    .banner {
+        position: relative;
+        width: 100%;
+        height: 700px;
+        background-image: url('Files/Karflix.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+
+    .banner .content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #c2baba;
+        text-align: center;    }
+
+    .banner .content h1 {
+        font-size: 70px;
+    }
+
+    .banner .content p {
+        font-size: 20px;
+    }
+
+
+    .section {
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .section .box {
+        width: 30%;
+        background-color: #222222;
+        color: #ffffff;
+        padding: 20px;
+        border-radius: 5px;
+        text-align: center;
+    }
+
+    .section .box h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .section .box p {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+
+    .footer {
+        background-color: #0f0f0f;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .footer p {
+        color: #ffffff;
+        margin: 0;
+    }
+    
